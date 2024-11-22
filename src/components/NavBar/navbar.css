@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.brand .icon-brand {
+  font-size: 40px;
+  color: #fc036b;
+}
+
+.brand .title-brand {
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.categories {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.category a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 20px;
+}
+
+.category a:hover {
+  background-color: #fc036b;
+  color: #ffffff;
+}
+
+.cartwidget {
+  display: flex;
+  align-items: center;
+}
+
+.cartwidget .icon-cartwidget {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.cartwidget .number-cartwidget {
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fc036b;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

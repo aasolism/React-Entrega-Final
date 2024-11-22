@@ -1,0 +1,34 @@
+.item-detail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 90vh;
+  padding: 100px 0;
+  color: #fc036b;
+}
+
+.images-detail-container .main-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.title-detail {
+  padding: 10px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fc036b;
+}
+
+.text-detail {
+  font-size: 1.2rem;
+  color: #000000;
+  padding: 10px 0;
+}
+

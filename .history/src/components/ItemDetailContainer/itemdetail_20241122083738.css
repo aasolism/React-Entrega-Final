@@ -1,0 +1,85 @@
+/* Estilo del mensaje cuando el carrito está vacío */
+.cart p {
+  color: #333; /* Gris oscuro para el mensaje de carrito vacío */
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px; /* Mantén el margen consistente */
+  padding: 0; /* Evitar padding extra que pueda afectar el diseño */
+}
+
+/* Estilo para el botón "Checkout" */
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white; /* Mantén el color blanco para el texto */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover y focus para el botón Checkout */
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+.checkout-button:focus {
+  outline: none;
+}
+
+/* Mantener estilo del título del carrito */
+.cart-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fc036b; /* Rosa fuerte */
+  text-align: center;
+}
+
+/* Estilos del carrito y otros textos */
+.cart-item-name {
+  font-weight: 600;
+  color: #333; /* Gris oscuro para el nombre del producto */
+}
+
+.cart-item-quantity {
+  font-size: 0.9em;
+  color: #666; /* Gris más suave para la cantidad */
+}
+
+.cart-item-price {
+  font-size: 0.9em;
+  color: #fc036b; /* Rosa fuerte para el precio */
+}
+
+.cart-total {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: right;
+  margin-top: 20px;
+  color: #333; /* Gris oscuro para el total */
+}
+
+/* Botón de eliminación */
+.remove-item-button {
+  background-color: #f44336; /* Rojo */
+  color: white; /* Mantén el texto blanco */
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.remove-item-button:hover {
+  background-color: #d32f2f; /* Rojo más oscuro al pasar el cursor */
+  transform: scale(1.05);
+}
+
+.remove-item-button:focus {
+  outline: none;
+}

@@ -1,0 +1,134 @@
+/* Estilos del carrito */
+.cart-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Cambié el color a gris oscuro */
+  text-align: center;
+}
+
+.cart-item-name {
+  font-weight: 600;
+  color: #333; /* Color gris oscuro para el nombre del producto */
+}
+
+.cart-item-quantity {
+  font-size: 0.9em;
+  color: #444; /* Gris más oscuro para la cantidad */
+}
+
+.cart-item-price {
+  font-size: 0.9em;
+  color: #333; /* Cambié el color a gris oscuro en lugar del rosa */
+}
+
+.cart-total {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: right;
+  margin-top: 20px;
+  color: #333; /* Color gris oscuro para el total */
+}
+
+/* Eliminar color blanco en los botones, si deseas más contraste, puedes dejarlo como está */
+.remove-item-button {
+  background-color: #f44336; /* Rojo */
+  color: white; /* Mantengo el texto blanco, pero si prefieres cambiarlo, usa negro */
+}
+
+.remove-item-button:hover {
+  background-color: #d32f2f; /* Rojo más oscuro */
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+.checkout-confirm-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white; /* Botón con texto blanco */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-confirm-button:hover {
+  background-color: #218838;
+}
+
+/* Para el input del formulario de checkout */
+.checkout-form label {
+  font-weight: bold;
+  color: #333; /* Color gris oscuro para las etiquetas */
+}
+
+.checkout-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.checkout-form input:focus {
+  outline: none;
+  border-color: #fc036b;
+  box-shadow: 0 0 5px rgba(252, 3, 107, 0.5);
+}
+
+/* Para el mensaje cuando el carrito está vacío */
+.cart-empty-message {
+  color: #333; /* Gris oscuro para el texto cuando el carrito está vacío */
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Cuando no hay productos en el carrito, mostramos un mensaje */
+.cart p {
+  color: #333; /* Gris oscuro para el mensaje de carrito vacío */
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Para el botón "Checkout" */
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white; /* Si prefieres cambiar el texto de blanco a gris o negro, usa lo siguiente: */
+  /* color: #333;  - gris oscuro o negro */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+.checkout-button:focus {
+  outline: none;
+}
